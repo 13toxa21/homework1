@@ -1,0 +1,44 @@
+h1 {
+  text-align: center;
+}
+.head {
+  color: blue;
+}
+.ordinary {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 13px;
+  color: darkblue;
+}
+.one {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  color: blue;
+}
+.two {
+  font-family: sans-serif;
+  font-size: 21px;
+  color: black;
+}
+.three {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 19px;
+  color: darkmagenta;
+}
+.point {
+  list-style-type: none;
+}
+.point:before {
+  content: "∙";
+  padding-right: 45px;
+}
+.para {
+  list-style: none;
+}
+.para:before {
+  content: '\00A7';
+  padding-right: 7px;
+}
+.circle {
+  list-style: inside circle;
+}
